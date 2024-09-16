@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bodii {
+  background-image: url(https://www.usnews.com/object/image/00000174-c065-d958-ab7e-fd7760ea0000/200924-shopping-stock.jpg?update-time=1600955769116&size=responsive640);
+
+}
+.card{
+  margin-top: 3%;
+}
+
+.rating-color {
+  color: #1e90ff !important; /* DodgerBlue */
+}
+
+.small-ratings i {
+  color: #87cefa; /* LightSkyBlue */
+}
+
+.review-stat {
+  font-size: 18px;
+}
+
+.subtotal {
+  border-top: #1e90ff 1px solid; /* DodgerBlue */
+}
+
+.OverallPriceCss {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 15px;
+  align-items: center;
+  
+  border-radius: 20px; /* Optional: for rounded corners */
+}
+
+@media screen and (max-width: 1000px) {
+  .OverallPriceCss {
+    margin-top: 15%;
+  }
+}
+
+.product-img {
+  padding: 3%;
+}
+
+header, nav, footer {
+  background: rgba( 240, 248, 255, 0.3 ); /* AliceBlue */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  -webkit-box-shadow: 0px 0px 11px 4px rgba(30, 144, 255, 0.75); /* DodgerBlue */
+  -moz-box-shadow: 0px 0px 11px 4px rgba(30, 144, 255, 0.75); /* DodgerBlue */
+  box-shadow: 0px 0px 11px 4px rgba(30, 144, 255, 0.75); /* DodgerBlue */
+}
+
+header .row {
+  padding: 5px 15%;
+}
+
+.CardCss {
+  margin-top: 10%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  background: rgba( 240, 248, 255, 0.3 ); /* AliceBlue */
+  border: 1px solid #1e90ff; /* DodgerBlue */
+  padding: 15px;
+  box-shadow: 0px 0px 11px 4px rgba(30, 144, 255, 0.75); /* DodgerBlue */
+}
+
+@media screen and (max-width: 1000px) {
+  .CardCss {
+    margin-top: 15%;
+  }
+}
